@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>9raya</title>
+  <!-- link css to html  -->
+  <link rel="stylesheet" href="portfolio.css">
+  <!-- link html to font family -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <!-- font awesome links -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+<header>
+  <!-- container (toute la page)  -->
+  <div class="container">
+<!-- logo photo -->
+    <div class="logo">
+  <img src="data:image/png;base64,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" alt="atheism">
+    
+    <nav>
+      <ul>
+        <li><a href="home"><i class="home"></i>home</a></li>
+        <li><a href="about"><i class="about"></i>about </a></li>
+        <li><a href="work"><i class="work"></i> work</a></li>
+        <li><a href="resume"><i class="resume"></i> contact</a></li>
+      </ul>
+</nav>
+  </div>
+  
+</header>
+<div class="container">
+<section class="introduction"> 
+    <h2> Introdution to Renewable Energy </h2>
+    <p>
+Renewable energy refers to energy obtained from sources that are naturally replenished. Renewable energy is energy that can be renewed, i.e. when used, a renewable energy source is not depleted.
+
+This type of energy is also defined as an energy resource which is fast replenished through a naturally occurring process after it has been harnessed from the source.
+It can be called: clean energy green energy, sustainable energy. Examples of renewable energy include:
+
+. Geothermal energy
+. Hydropower
+. Wave energy
+. Solar energy
+. Wind energy
+. Biomass energy
+    </p>
+</section>
+<section class="importance"> 
+    <h2>Importance of Renewable Energy</h2>
+    <p>
+  Importance of renewable energy
+Here are some of the reasons why people should opt for renewable energy:
+
+No need to burn fossil fuels. As a result of minimal environmental pollution, there will be fewer health complications.
+It’s greener. Very minimal or no pollution to the environment.
+Responsible. It preserves the world for future generations.
+It is reliable for the future. Since the energy resources are renewable, there is energy security.
+Renewable energy sources are inexhaustible and hence a sustainable source of energy.
+It tends to be efficient.
+It can be very cost effective. It may entail a higher initial cost, the the running cost is generally cheaper.
+It reduces climate change.renewable energy emits little to no greenhouse gases.
+Renewable energy is available all over the world hence fewer energy-related conflicts.
+Availability of reliable sources of energy spurs economic growth.
+In a bid to meet the challenges of the modern world, there is a need to use energy that is reliable and does not destroy the planet. Renewable energy can power the world to its next chapter of development. Switching to renewable energy is the sensible thing to do.
+</p>
+</section>
+<div class="clear"></div>
+</div>
+<section class="vifeo">
+  <div class="container">
+    <h1> video </h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cARGOrtiWt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</section>
+<section class="audio">
+  <div class="container">
+    <audio controls>
+      <source src="./images/Bob Marley - I Shot The Sheriff.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</section>
+
+<footer id="footer">
+<div class="container">
+  <div class="footer_logo">
+  <img src="data:image/png;base64,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" alt="atheism">
+</div>
+  <div class="networkrs">
+    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+</div>
+</div>
+</footer>
+</body>
+</html>
